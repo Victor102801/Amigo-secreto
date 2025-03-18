@@ -28,3 +28,15 @@ function actualizarLista() {
 }
 
 
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("La lista está vacía. Agrega al menos un amigo antes de sortear.");
+        return;
+    }
+    
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length); // Seleccionar un índice aleatorio
+    const amigoSeleccionado = amigos[indiceAleatorio]; // Obtener el nombre del amigo
+    
+    const resultadoElement = document.getElementById("resultado"); // Obtener el elemento donde se mostrará el resultado
+    resultadoElement.innerHTML = `<li>${amigoSeleccionado} es el amigo secreto 🎉</li>`; // Mostrar el nombre seleccionado
+}
