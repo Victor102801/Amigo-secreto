@@ -15,3 +15,16 @@ input.value = ""; // Limpiar el campo de entrada
 actualizarLista(); // Llamar la función para actualizar la lista visual
 }
 
+function actualizarLista() {
+    const listaElement = document.getElementById("listaAmigos"); // Seleccionar la lista en HTML
+    listaElement.innerHTML = ""; // Limpiar la lista antes de agregar nuevos elementos
+    
+    // Recorrer el array de amigos y crear un <li> para cada uno
+    for (let i = 0; i < amigos.length; i++) {
+        const li = document.createElement("li"); // Crear un nuevo elemento <li>
+        li.textContent = amigos[i]; // Asignar el nombre del amigo como texto
+        listaElement.appendChild(li); // Agregar el <li> a la lista
+    }
+}
+
+
