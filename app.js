@@ -4,5 +4,14 @@ const amigos = []; // Array para almacenar los nombres de amigos
 function agregarAmigo() {
     const input = document.getElementById("amigo"); // Capturar el valor del input
     const nombre = input.value.trim(); // Eliminar espacios en blanco al inicio y al final
+   // Validar que el campo no esté vacío
+   if (nombre === "") {
+    alert("Por favor, inserte un nombre.");
+    return;
+}
+
+amigos.push(nombre); // Agregar el nombre al array
+input.value = ""; // Limpiar el campo de entrada
+actualizarLista(); // Llamar la función para actualizar la lista visual
 }
 
