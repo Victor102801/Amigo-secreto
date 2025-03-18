@@ -24,3 +24,4 @@ Este proyecto es una aplicación web que permite a los usuarios agregar nombres 
 
 **Resultados**
 ![Captura de pantalla 2025-03-18 171427](https://github.com/user-attachments/assets/31102bec-df9c-4c94-b2e2-d32c27407225)
+![Captura de pantalla 2025-03-18 171726](https://github.com/user-attachments/assets/d8d36ab0-b5da-4d79-8704-af17ab4e9887)
