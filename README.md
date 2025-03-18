@@ -1,9 +1,9 @@
 <h1 align="center"> Amigo secreto </h1>
-Descripción
+**Descripción**
 
 Este proyecto es una aplicación web que permite a los usuarios agregar nombres de amigos a una lista y luego realizar un sorteo aleatorio para determinar quién será el "Amigo Secreto".
 
-##Funcionalidades 
+**Funcionalidades**
 
 1.Agregar nombres: Los usuarios pueden ingresar nombres en un campo de texto y añadirlos a la lista con un botón.
 
@@ -14,10 +14,13 @@ Este proyecto es una aplicación web que permite a los usuarios agregar nombres 
 4.Sorteo aleatorio: Un botón selecciona al azar un nombre de la lista y lo muestra en pantalla.
 
 
-- **Programacion**
+- **Tecnologias Utilizadas**
   - HTML
   - CSS
   - JavaScript
 - **Herramientas**
   - Git
   - GitHub
+
+**Resultados**
+![Captura de pantalla 2025-03-18 171427](https://github.com/user-attachments/assets/31102bec-df9c-4c94-b2e2-d32c27407225)
